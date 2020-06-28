@@ -122,21 +122,21 @@ li {
     background: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url('1.png');
+    background-image: url('1.jpg');
     position: relative;
     border-bottom: 1px black solid;
 }
 
 .projectbox:nth-child(2) {
-    background-image: url('2.png');
+    background-image: url('2.jpg');
 }
 
 .projectbox:nth-child(3) {
-    background-image: url('3.png');
+    background-image: url('3.jpg');
 }
 
 .projectbox:nth-child(4) {
-    background-image: url('4.png');
+    background-image: url('4.jpg');
 }
 
 .projectdsec {
@@ -232,7 +232,7 @@ li {
     border: 0;
     }
     .projectbox:nth-child(4) {
-        background-image: url('4.png');
+        background-image: url('4.jpg');
     }
     
     .biogrid ul {
