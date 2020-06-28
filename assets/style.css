@@ -197,6 +197,10 @@ li {
     color: black;
 }
 
+.contactlist a:last-child {
+    text-decoration: none;
+}
+
 .badge {
     margin-bottom: 3px;
     display: inline-block;
