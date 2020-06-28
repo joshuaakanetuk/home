@@ -12,9 +12,11 @@ html, body, main {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    
 }
 
 body {
+    font-family: 'Roboto Mono', monospace;
     background-color: black;
     color: white;
 }
@@ -34,7 +36,7 @@ nav > div {
 }
 
 section {
-    font-family: 'Roboto Mono', monospace;
+    
 }
 
 
@@ -55,6 +57,31 @@ li {
     padding-left: 5px;
 }
 
+.projecticons li {
+    padding: 3px 6px;
+}
+
+.projecticons {
+    bottom: 2em;
+    position: absolute;
+}
+
+.projecticons ul{
+    margin: 0;
+}
+
+.projecticons li{
+    margin-left: 5px;
+}
+
+.projecticons li:first-child{
+    margin-left: 0;
+}
+
+
+.no-pad{
+    padding: 0;
+}
 
 .contact {
     background-color: white;
@@ -87,6 +114,7 @@ li {
 .biogrid {
     padding: 1em;
     font-size: 18px;
+    line-height: 2;
     
 }
 
@@ -103,7 +131,10 @@ li {
 .biogrid li {
     padding-left: 0;
     flex: 1 0 50%;
+    line-height: 1;
 }
+
+
 
 .biogrid li:first-child {
     margin-bottom: 20px;
@@ -145,7 +176,7 @@ li {
 }
 
 .projectbox:hover {
-    animation-name: hover;
+/*    animation-name: hover;*/
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
@@ -154,11 +185,19 @@ li {
     background-color: black;
 }
 
+.projecttitle a{
+    color: white;
+}
+
 .projectlink{
     bottom: 1em;
     font-size: 12px;
     position: absolute;
     background-color: black;
+}
+
+.projectlink a{
+    color: white;
 }
 
 .avatar {
