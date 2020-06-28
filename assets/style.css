@@ -1,0 +1,153 @@
+@keyframes hover {
+  0% {opacity: 1;}
+  50% {opacity: 0.7;}
+  100% {opacity: 1;}
+}
+
+* {
+box-sizing: border-box;
+}
+
+html, body, main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav > div {
+    flex: 1;
+    vertical-align:middle;
+}
+
+section {
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    flex: 1;
+    display: inline;
+    padding-left: 5px;
+}
+
+.contact {
+    background-color: white;
+    color: black;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    flex: 0;
+    text-decoration: underline;
+}
+
+.sectionname {
+        padding: 1em;
+        font-size: 12px;
+}
+
+.profile {
+    display: flex;
+    align-items:center;
+    font-size: 13px;
+}
+
+.profile > div {
+    margin-left: 10px;
+}
+
+.biogrid {
+    padding: 1em;
+    font-size: 14px;
+}
+
+
+.projectgrid {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectbox {
+    height: 250px;
+    padding: 1em;
+    background: no-repeat;
+    background-size: cover;
+    background-image: url('ujukauboi.png');
+    position: relative;
+}
+
+.projectbox:hover {
+    animation-name: hover;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.projecttitle{
+    background-color: black;
+}
+
+.projectlink{
+    bottom: 1em;
+    font-size: 12px;
+    position: absolute;
+}
+
+@media all and (min-width: 600px) {
+    .projectgrid {
+        display: flex;
+        flex-direction: row;
+    }
+    .projectbox {
+        flex-basis: 50%; 
+    
+    }
+}
+
+.avatar {
+    vertical-align:middle;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+}
+
+.frame {
+    pointer-events: none;
+    z-index: 0;
+    position: fixed;
+    top: 1px;
+    bottom: 1px;
+    left: 0px;
+    right: 0px;
+    border: 1px white solid;
+}
+
+.frameb {
+    border-bottom: 1px white solid;
+}
