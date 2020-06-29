@@ -37,6 +37,7 @@ input[type="submit"],
 button {
      -webkit-appearance: none;
      border-radius: 0;
+     background: none;
 }
 input:focus {
 	outline: none;
