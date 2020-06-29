@@ -46,7 +46,7 @@ nav {
 	padding: 1em;
 	font-family: 'Roboto Mono', monospace;
 }
-nav a{
+nav a, nav a:visited, nav a:active {
     color: white;
 }
 nav .links, nav .profile {
