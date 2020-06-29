@@ -17,6 +17,7 @@ html, body, main {
 
 body {
     font-family: 'Roboto Mono', monospace;
+    font-variant-numeric: slashed-zero;
     background-color: black;
     color: white;
 }
