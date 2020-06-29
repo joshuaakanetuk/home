@@ -28,8 +28,15 @@ button {
 }
 input {
 	border: none;
-    -webkit-appearance: none;
 	border-bottom: 1px solid black;
+}
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+button {
+     -webkit-appearance: none;
+     border-radius: 0;
 }
 input:focus {
 	outline: none;
