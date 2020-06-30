@@ -24,42 +24,43 @@
 	<link href="assets/favicon.png" rel="icon">
 </head>
 <body>
-	<nav class="">
-		<div class="profile">
+    <header>
+	<nav>
+		<section class="profile">
 			<img alt="JOSHUA AKAN-ETUK PROFILE IMAGE" class="avatar" src="assets/ujukauboi.png">
-			<div>
-				Joshua Akan-Etuk<br>
-				SOFTWARE DEVELOPER
-			</div>
-		</div>
-		<div class="links">
+			<div class="name">Joshua Akan-Etuk<br>SOFTWARE DEVELOPER</div>
+		</section>
+		<section class="links">
 			<ul>
-				<li>
-					<a href="#contactlist">Contact!</a>
-				</li>
-				<li>Blog</li>
+                <li><a href="/">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#bio">Bio</a></li>
+				<li><a href="#contactlist">Contact</a></li>
+                <!-- <li>Blog</li> -->
 			</ul>
-		</div>
+		</section>
 	</nav>
+</header>
 	<main>
-		<div class="">
-			<div class="sectionname contact" id="#projects">
-				Projects (title goes to live app, link goes to repo...)
-			</div>
-			<div class="projectgrid">
-				<div class="projectbox">
-					<span class="projecttitle"><a href="http://events.theknowhere.club/"><i class="fa fa-link"></i></a> Local Events</span>
-					<p class="projectdesc">Host your organization's events off of Facebook and control your data.</p>
+		<section>
+			<header class="sectionname contact" id="projects">
+				Projects (Click title for live app, Clink link for repo...)
+			</header>
+			<article class="projectgrid">
+				<article class="projectbox">
+					<span class="projecttitle"><a href="http://events.theknowhere.club/">Local Events</a> </span>
+					<p class="projectdesc">Host your organization's events off of Facebook and control your data. For organizers and non-profits. Made to give users more control over data.</p>
 					<div class="projecticons">
 						<ul>
 							<li><img alt="NODE LOGO" class="icon" height="25" src="assets/node.svg" width="25"></li>
 							<li><img alt="JS LOGO" class="icon" height="25" src="assets/js.svg" width="25"></li>
 						</ul>
 					</div><span class="projectlink"><a href="http://github.com/joshuaakanetuk/local-events"><i class="fa fa-link"></i></a> http://github.com/joshuaakanetuk/local-events</span>
-				</div>
-				<div class="projectbox">
-					<span class="projecttitle"><a href="http://github.com/joshuaakanetuk/resouvenir"><i class="fa fa-link"></i></a> Resouvenir</span>
-					<p class="projectdesc">Log and track all of the movies you watch and create pretty watchlists.</p>
+				</article>
+				<article class="projectbox">
+					<span class="projecttitle"><a href="http://github.com/joshuaakanetuk/resouvenir">Resouvenir</a></span>
+                    <span class="badge">Placeholder</span>
+					<p class="projectdesc">Log and track all of the movies you watch and create pretty watchlists. For movie fanatics. Made to give users more control over data.</p>
 					<div class="projecticons">
 						<ul>
 							<li><img alt="TMDB LOGO" class="icon" height="25" src="assets/tmdb.svg" width="25"></li>
@@ -68,38 +69,17 @@
 						</ul>
 					</div><span class="projectlink"><a href="http://github.com/joshuaakanetuk/resouvenir"><i class="fa fa-link"></i></a> http://github.com/joshuaakanetuk/resouvenir</span>
 				</div>
-				<div class="projectbox">
-					<span class="projecttitle">soloq</span> <span class="badge sm">Soon</span>
-					<p class="projectdesc">Make it easier to edit after-the-fact with a tool suite for capturing data in realtime.</p>
-					<div class="projecticons">
-						<ul>
-							<li><img alt="NODE LOGO" class="icon" height="25" src="assets/node.svg" width="25"></li>
-							<li><img alt="JS LOGO" class="icon" height="25" src="assets/js.svg" width="25"></li>
-						</ul>
-					</div><span class="projectlink"></span>
-				</div>
-				<div class="projectbox">
-					<span class="projecttitle">HAL 5000</span> <span class="badge sm">Soon</span>
-					<p class="projectdesc">Automated video creation suite for solo Twitch streamers to create content for other platforms.</p>
-					<div class="projecticons">
-						<ul>
-							<li><img alt="NODE LOGO" class="icon" height="25" src="assets/node.svg" width="25"></li>
-							<li><img alt="JS LOGO" class="icon" height="25" src="assets/js.svg" width="25"></li>
-						</ul>
-					</div><span class="projectlink"></span>
-				</div>
-			</div>
-		</div>
-		<div class="">
-			<div class="sectionname">
+			</article>
+		</section>
+		<section>
+			<header class="sectionname" id="bio">
 				Biography
-			</div>
-			<div class="biogrid">
+			</header>
+			<article class="biogrid">
 				<!-- 6-1, 6-2,  -->
 				<div>
 					👨🏿‍💻 Hi, I am Joshua Akan-Etuk! I am a software developer + filmmaker living <i>close</i> to Richmond, Virginia.
-				</div>
-				<div>
+                    <br>
 					<br>
 					🏃🏿‍♂️ What makes me different from most is my passions outside of coding and how that drives programming. I love art. I am a designer, filmmaker, streamer and more. Whenever my creative projects need some automation coding is where I turn to.<br>
 					<br>
@@ -108,15 +88,13 @@
 					📽 Another app I'm working on is a movie diary clone based on the MVP of <a href="https://letterboxd.com">Letterboxd</a>. I like having ownership over my data, but Letterboxd's API isn't publicly available currently. So, I will be creating a self-hosted app for the API Hack project.<br>
 					<br>
 					🕴🏿 What I feel like makes me stand out is how my need to express myself or solve issues has guided my programming so far.
-				</div><!-- -->
-				<div>
 					<br>
+                    <br>
 					🏢 I love working with others and wouldn’t be able to get anywhere programming without working with other talented people in some way. Imagine with the world without the thousands of mission-critical open source projects.<br>
 					<br>
 					☁︎ I imagine making programs people need. However, one mind is not enough for sustaining applications that people rely on. I learn faster in a team environment of people more talented than me. That's why I want to be on a team.
-				</div>
-				<div>
 					<br>
+                    <br>
 					🙇🏿‍♂️ I would consider myself patient, modest, and creative. Outside of code I make videos for YouTube, stream on Twitch, and write music (for myself).
 				</div>
 				<div>
@@ -129,12 +107,12 @@
 						<li><span class="badge sm">Soon</span> Machine Learning</li>
 					</ul>
 				</div>
-			</div>
-		</div>
-		<div class="contact">
-			<div class="sectionname">
+			</article>
+		</section>
+		<section class="contact">
+			<header class="sectionname">
 				Contact
-			</div>
+			</header>
 			<div class="contactlist" id="contactlist">
 				<form action="https://formspree.io/joshuaakanetuk@gmail.com" method="post">
 					<!-- add the input elements here -->
@@ -153,7 +131,7 @@
 				<br>
 				<span>Copyright © 2020.</span>
 			</div>
-		</div>
+		</section>
 	</main><!-- <div class="frame"></div> -->
 </body>
 </html>
