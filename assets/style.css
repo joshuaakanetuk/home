@@ -124,6 +124,7 @@ li {
 .sectionname {
 	padding: 1em;
 	font-size: 12px;
+    margin: 0;
 }
 .profile {
     flex: 3;
@@ -192,6 +193,7 @@ li {
 }
 .projecttitle {
 	background-color: black;
+    display: inline-block;
 }
 .projecttitle a {
 	color: white;
